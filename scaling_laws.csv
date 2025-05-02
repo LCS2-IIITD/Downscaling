@@ -1,0 +1,52 @@
+Paper,Curve-fitting Method,Loss Objective,Hyperparameters Reported?,Initialization,Are scaling laws validated?
+Rosenfeld et al. (2019),Least Squares Regression,Custom error term,N/A,Random,Y
+Mikami et al.,Non-linear Least Squares in log-log space,,N/A,N/A,Y
+Schaeffer et al. (2023),NA,NA,NA,NA,NA
+Sardana & Frankle (2023),L-BFGS,Huber Loss,Y,Grid Search,N
+Sorscher et al. (2022),NA,NA,NA,NA,NA
+Caballero et al. (2022),Least Squares Regression,MSLE,N/A,"Grid Search, optimize one",Y
+Besiroglu et al. (2024),L-BFGS,Huber Loss,Y,Grid Search,Y
+Gordon et al. (2021),Least Squares Regression,,N/A,N.S.,N
+Bansal et al. (2022),NS,NS,N,NS,N
+Hestness et al. (2017),NS,RMSE,N,NS,Y
+Bi et al. (2024),NS,NS,N,NS,Y
+Bahri et al. (2024),NS,NS,N,NS,N
+Geiping et al. (2022),Non-linear Least Squares,,NA,Non-augmented parameters,Y
+Poli et al. (2024),NS,NS,N,NS,N
+Hu et al. (2024),scipy curvefit,NS,N,NS,N
+Hashimoto (2021),Adagrad,Custom Loss,Y,Xavier,Y
+Ruan et al. (2024),Linear Least Squares,Various,N/A,N/A,Y
+Anil et al. (2023),Polynomial Regression (Quadratic),N.S.,N,N.S.,Y
+Pearce & Song (2024a),Polynomial Least Squares,MSE on Log-loss,N/A,N/A,N
+Cherti et al. (2023),Linear Least Squares,MSE,N/A,N/A,N
+Porian et al. (2024),Weighted Linear Regression,weighted SE on Log-loss,N/A,N/A,Y
+Alabdulmohsin et al. (2022),Least Squares Regression,MSE,Y,N.S.,Y
+Gao et al. (2024),N.S,N.S,N.S,N.S,N.S
+Muennighoff et al. (2024),L-BFGS,Huber on Log-loss,Y,"Grid Search, optimize all",Y
+Rae et al. (2021),None,None,N/A,N/A,N
+Shin et al. (2023),NA,NA,NA,NA,NA
+Hernandez et al. (2022),NS,NS,NS,NS,NS
+Filipovich et al. (2022),NS,NS,NS,NS,NS
+Neumann & Gros (2022),NS,NS,NS,NS,NS
+Droppo & Elibol (2021),NS,NS,NS,NS,NS
+Henighan et al. (2020),NS,NS,NS,NS,NS
+Goyal et al. (2024),Grid Search,L2 error,Y,NA,Y
+Aghajanyan et al. (2023),L-BFGS,Huber on Log-loss,Y,"Grid Search, optimize all",Y
+Kaplan et al. (2020),NS,NS,NS,NS,N
+Ghorbani et al. (2021),"Trust Region Reflective algorithm, Least Squares",Soft-L1 Loss,Y,Fixed,Y
+Gao et al. (2023),NS,NS,NS,NS,Y
+Hilton et al. (2023),CMA-ES+Linear Regression,L2 log loss,Y,Fixed,Y
+Frantar et al. (2023),BFGS,Huber on Log-loss,Y,N Random Trials,Y
+Prato et al. (2021),NS,NS,NS,NS,NS
+Covert et al. (2024),Adam,Custom Loss,Y,NS,Y
+Hernandez et al. (2021),NS,NS,NS,NS,Y
+Ivgi et al. (2022),Linear Least Squares in Log-Log space,MSE,NA,NS,Y
+Tay et al. (2022),NA,NA,NA,NA,NA
+Tao et al. (2024),"L-BFGS, Least Squares",Huber on Log-loss,Y,N Random Trials from Grid,Y
+Jones (2021),L-BFGS,NS,NS,NS,NS
+Zhai et al. (2022),NS,NS,NS,NS,NS
+Dettmers & Zettlemoyer (2023),NA,NA,NA,NA,NA
+Dubey et al. (2024),NS,NS,NS,NS,Y
+Hoffmann et al. (2022),L-BFGS,Huber on Log-loss,Y,"Grid Search, optimize all",Y
+Ardalani et al. (2022),NS,NS,NS,NS,NS
+Clark et al. (2022),L-BFGS-B,L2 Loss,Y,Fixed,NS
